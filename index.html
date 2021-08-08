@@ -38,8 +38,7 @@
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...
                 </p>
-                <button class="btn-rounded">Continue
-                    Reading</button>
+                <button class="btn-rounded" onclick="toggleModal()">Continue Reading</button>
             </div>
         </div>
         <div class="card flex">
@@ -55,8 +54,7 @@
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...
                 </p>
-                <button class="btn-rounded">Continue
-                    Reading</button>
+                <button class="btn-rounded" onclick="toggleModal()">Continue Reading</button>
             </div>
         </div>
         <div class="card flex">
@@ -72,8 +70,7 @@
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur...
                 </p>
-                <button class="btn-rounded">Continue
-                    Reading</button>
+                <button class="btn-rounded" onclick="toggleModal()">Continue Reading</button>
             </div>
         </div>
         <div class="posts-nav flex">
@@ -96,6 +93,17 @@
             </ul>
         </div>
     </footer>
+    <!-- Modal -->
+    <div class="modal" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-content">
+            <h2>Join us to get access to the latest stories!</h2>
+            <input type="email" placeholder="Enter an email">
+            <div class="modal-btns flex">
+                <button type="button" onclick="toggleModal()">Close</button>
+                <button type="button">Submit</button>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
         integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
     <script src="js/controller.js"></script>

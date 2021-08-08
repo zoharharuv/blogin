@@ -14,7 +14,12 @@ function onMouseOver(elBtn) {
 function onMouseOut(elBtn) {
     $(elBtn).children().attr("style", "display:none;")
 }
-// SCREEN
+// NAVBAR
 function toggleMenu() {
     document.body.classList.toggle('menu-open');
+}
+
+// read more modal
+function toggleModal(){
+    document.body.classList.toggle('modal-open');
 }
