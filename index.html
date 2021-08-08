@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogin</title>
+    <link rel="icon" type="img/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="screen" onclick="toggleMenu()"></div>
+    <header class="main-header">
+        <div class="header-layout flex main-layout space-between align-items">
+            <div class="logo">Blogin<span>.</span></div>
+            <ul class="main-nav flex clean-list">
+                <li onclick="onClickNavBtn(this)"><a href="#" class="active">Journal</a></li>
+                <li onclick="onClickNavBtn(this)"><a href="#">About</a></li>
+                <li onclick="onClickNavBtn(this)"><a href="#">Work</a></li>
+                <li onclick="onClickNavBtn(this)"><a href="#">Contact</a></li>
+            </ul>
+            <button class="btn-menu-toggle" onclick="toggleMenu()">☰</button>
+        </div>
+    </header>
+    <main class="main-content main-layout cards-layout">
+        <div class="card flex">
+            <img src="images/001.jpg" alt="" class="card-image">
+            <div class="card-content flex">
+                <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in <br>
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn-rounded">Continue
+                    Reading</button>
+            </div>
+        </div>
+        <div class="card flex">
+            <img src="images/002.jpg" alt="" class="card-image">
+            <div class="card-content flex">
+                <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in <br>
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn-rounded">Continue
+                    Reading</button>
+            </div>
+        </div>
+        <div class="card flex">
+            <img src="images/003.jpg" alt="" class="card-image">
+            <div class="card-content flex">
+                <h2 class="card-title">Duis aute irure dolor in henderit in voluptate.</h2>
+                <p>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                    doconsequat, sunt in <br>
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur...
+                </p>
+                <button class="btn-rounded">Continue
+                    Reading</button>
+            </div>
+        </div>
+        <div class="posts-nav flex">
+            <button class="nav-btn prev">&#8592; Previous</button>
+            <button class="nav-btn next">Next &#8594;</button>
+        </div>
+    </main>
+    <footer class="main-footer flex">
+        <div class="main-layout footer-content ">
+            <div class="logo black">Blogin<span>.</span></div>
+            <div class="footer-terms">
+                © 2014 Blogin.com - All Rights Reserved - Find more free Templates at <a href="###">Pixelhint.com</a>
+            </div>
+
+            <ul class="social-nav clean-list flex">
+                <li class="footer-link facebook"><a href="social-facebook" class="fab fa-facebook-f"></a></li>
+                <li class="footer-link twitter"><a href="social-twitter" class="fab fa-twitter"></a></li>
+                <li class="footer-link behance"><a href="social-behance" class="fab fa-behance"></a></li>
+                <li class="footer-link dribbble"><a href="social-dribbble" class="fab fa-dribbble"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>
